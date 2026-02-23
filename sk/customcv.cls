@@ -26,7 +26,7 @@
 
 \setlist[itemize]{noitemsep, topsep=2pt, parsep=2pt, partopsep=0pt, leftmargin=1.5em}
 
-% --- HLAVIČKA ---
+% --- HLAVIČKA (TYRKYSOVÝ BOX) ---
 \newcommand{\makecvheader}[8]{
   \begin{tcolorbox}[
       colback=primary, colframe=primary, arc=0pt, outer arc=0pt,
@@ -58,14 +58,14 @@
   \textbf{#1}: #2 \par
 }
 
-% Kompaktné znalosti
+% Kompaktné znalosti (zmenšené vertikálne medzery)
 \newcommand{\cvskill}[2]{
   \vspace{-0.2em} 
   \textbf{#1}: #2 \par
 }
 
-% Vzdušnejšie aktivity
+% Vzdušnejšie aktivity (zväčšené vertikálne medzery)
 \newcommand{\cvactivity}[1]{
-  \vspace{0.5em} 
+  \vspace{0.6em} 
   #1 \par
 }
