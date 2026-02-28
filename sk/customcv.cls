@@ -60,12 +60,14 @@
 
 % Kompaktné znalosti (zmenšené vertikálne medzery)
 \newcommand{\cvskill}[2]{
-  \vspace{-0.2em} 
+  \vspace{0.1em} 
   \textbf{#1}: #2 \par
 }
 
 % Vzdušnejšie aktivity (zväčšené vertikálne medzery)
 \newcommand{\cvactivity}[1]{
-  \vspace{0.6em} 
+  \vspace{0.1em} 
   #1 \par
 }
+
+\newcommand{\duration}[1]{{\color{textlight}\textnormal{#1}}}
