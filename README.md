@@ -10,7 +10,7 @@ The CV is designed using a custom LaTeX class (`customcv.cls`) to provide a clea
 
 - `main.tex`: The primary LaTeX source file containing the content of the CV.
 - `customcv.cls`: Custom LaTeX class defining the document structure, styles, and reusable components (e.g., `\cvexperience`, `\cvskill`).
-- `peterk_llm_cv__Copy_.pdf`: A compiled version of the CV (exported for reference).
+- `peterk_.pdf`: A compiled version of the CV (exported for reference).
 
 ## How to Compile
 
